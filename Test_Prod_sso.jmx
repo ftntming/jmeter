@@ -41,7 +41,7 @@
           </elementProp>
           <elementProp name="server" elementType="Argument">
             <stringProp name="Argument.name">server</stringProp>
-            <stringProp name="Argument.value">aada984c63d9e4919a6c3f8181d9bb5d-314577720.us-east-2.elb.amazonaws.com</stringProp>
+            <stringProp name="Argument.value">sso.fortivoice-cloud.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="port" elementType="Argument">
@@ -61,28 +61,28 @@
           </elementProp>
           <elementProp name="users-count" elementType="Argument">
             <stringProp name="Argument.name">users-count</stringProp>
-            <stringProp name="Argument.value">300</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="delete_domain_after_test" elementType="Argument">
-            <stringProp name="Argument.name">delete_domain_after_test</stringProp>
+          <elementProp name="delete_domain_after_test1" elementType="Argument">
+            <stringProp name="Argument.name">delete_domain_after_test1</stringProp>
             <stringProp name="Argument.value">false</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="thread-count" elementType="Argument">
             <stringProp name="Argument.name">thread-count</stringProp>
-            <stringProp name="Argument.value">500</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="admin_pass" elementType="Argument">
             <stringProp name="Argument.name">admin_pass</stringProp>
-            <stringProp name="Argument.value">admin@1234</stringProp>
+            <stringProp name="Argument.value">FortiFone@3824</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
-      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="false">
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
